@@ -1,0 +1,619 @@
+@media screen and (max-width: 360px){
+    .titulo_do_curso {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    span {
+        display: inline;
+    }
+
+    .logotipo_header {
+        width: 100%;
+    }
+
+    .whatsapp_header, .ilustracao_detalhes_do_curso, .ilustracao_beneficios, .ilustracao_informacoes, .ilustracao_formulario, .descricao_formulario {
+        display: none;
+    }
+    
+    .descricao_do_curso, .foco_do_curso {
+        border-radius: 0;
+    }
+
+    .titulo_do_curso {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .elementos_descricao_do_curso {
+        width: 80%;
+        border-radius: 50px;
+        padding: 0;
+    }
+
+    .elemento_descricao {
+        font-size: 16px;
+    }
+
+    .subtitulos {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .modulos {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .titulo_foco_do_curso {
+        font-size: 16px;
+        margin: 0;
+        line-height: 26px;
+    }
+
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+
+    .detalhes_beneficios, .whatsapp_rodape { 
+        width: 100%;
+    }
+
+    .beneficios_centro {
+        position: unset;
+        width: 90%;
+    }
+
+    .beneficios_centrais {
+        margin-top: 20px;
+    }
+
+    .beneficios_laterais {
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .lista_informacoes {
+        margin-top: 30px;
+    }
+
+    .informacoes {
+        text-align: center;
+        width: auto;
+        padding: 15px;
+    }
+
+    .informacoes_curso {
+        border-radius: 0;
+        padding-top: 1px;
+        display: block;
+    }
+
+    .subtitulo_contato {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .elemento_descricao_contato {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .formulario {
+        width: 100%;
+        padding-top: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .input_submit {
+        margin-bottom: 5px;
+        background-color: #AAD4D8;
+        width: auto;
+    }
+
+    footer {
+        padding: 40px;
+    }
+
+    .elemento_1_rodape {
+        font-size: 18px;
+    }
+
+    .elemento_2_rodape {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    span {
+        display: inline;
+    }
+
+    .logotipo_header {
+        width: 100%;
+    }
+
+    .ilustracao_informacoes, .ilustracao_detalhes_do_curso, .ilustracao_beneficios, .ilustracao_formulario, .descricao_formulario, .whatsapp_header {
+        display: none;
+    }
+
+    .titulo_do_curso {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .elementos_descricao_do_curso {
+        width: 80%;
+        border-radius: 50px;
+    }
+
+    .elemento_descricao {
+        font-size: 18px;
+    }
+
+    .descricao_do_curso {
+        border-radius: 0;
+    }
+
+    .subtitulos {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .modulos {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .titulo_foco_do_curso {
+        font-size: 18px;
+        margin: 0 0 20px 0;
+        line-height: 26px;
+    }
+
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+    
+    .detalhes_beneficios, .whatsapp_rodape { 
+        width: 100%;
+    }
+
+    .beneficios_centro {
+        position: unset;
+        width: 90%;
+    }
+
+    .beneficios_centrais {
+        margin-top: 20px;
+    }
+
+    .beneficios_laterais {
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .informacoes_curso {
+        padding-top: 1px;
+        display: block;
+    }
+
+    .lista_informacoes {
+        margin-top: 30px;
+    }
+
+    .informacoes {
+        text-align: center;
+        width: auto;
+        padding: 25px;
+    }
+
+    .subtitulo_contato {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .elemento_descricao_contato {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    
+    .formulario {
+        width: 100%;
+        padding-top: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .input_submit {
+        margin-bottom: 5px;
+        background-color: #AAD4D8;
+    }
+
+    .elemento_1_rodape {
+        font-size: 18px;
+    }
+
+    .elemento_1_rodape {
+        font-size: 20px;
+    }
+    
+    .elemento_2_rodape {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    span {
+        display: inline;
+    }
+
+    .ilustracao_detalhes_do_curso, .ilustracao_beneficios, .ilustracao_informacoes, .ilustracao_formulario {
+        display: none;
+    }
+
+    .logotipo_header {
+        margin-left: 50px;
+    }
+
+    .titulo_do_curso {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .elementos_descricao_do_curso {
+        width: 80%;
+        border-radius: 50px;
+        padding: 0;
+    }
+
+    .elemento_descricao {
+        font-size: 22px;
+    }
+
+    .subtitulos {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .modulos {
+        width: 60%;
+        margin-top: 40px;
+    }
+    
+    .titulo_modulo {
+        font-size: 18px
+    }
+
+    .detalhes_modulo {
+        font-size: 16px;
+    }
+
+    .titulo_foco_do_curso {
+        font-size: 22px;
+        margin: 0 0 20px 0;
+        line-height: 26px;
+    }
+
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+
+    .detalhes_beneficios, .whatsapp_rodape { 
+        width: 100%;
+    }
+
+    .beneficios_centro {
+        position: unset;
+        width: 90%;
+    }
+
+    .beneficios_centrais {
+        margin-top: 20px;
+    }
+
+    .beneficios_laterais {
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .lista_informacoes {
+        margin-top: 30px;
+    }
+
+    .informacoes {
+        text-align: center;
+        width: auto;
+        padding: 25px;
+    }
+
+    .informacoes_curso {
+        padding-top: 1px;
+        display: block;
+    }
+
+    .descricao_formulario {
+        display: none;
+    }
+
+    .formulario {
+        width: 100%;
+        padding-top: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .input_submit {
+        margin-bottom: 5px;
+        background-color: #AAD4D8;
+    }
+
+    .subtitulo_contato {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .elemento_descricao_contato {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .elemento_1_rodape {
+        font-size: 20px;
+    }
+
+    .elemento_2_rodape {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px){
+   .ilustracao_beneficios, .ilustracao_informacoes, .ilustracao_formulario, .descricao_formulario {
+        display: none;
+    }
+
+    .logotipo_header {
+        margin-left: 55px;
+    }
+
+    .ilustracao_detalhes_do_curso{
+       width: 30%;
+    }
+
+    .titulo_do_curso {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .subtitulos {
+        margin-bottom: 0;
+    }
+
+    .modulos {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .titulo_modulo {
+        font-size: 20px
+    }
+
+    .detalhes_modulo {
+        font-size: 17px;
+    }
+
+    .titulo_foco_do_curso {
+        font-size: 26px;
+        margin: 0 0 20px 0;
+        line-height: 26px;
+    }
+
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+
+    .foco_do_curso {
+        height: 400px
+    }
+
+    .detalhes_beneficios { 
+        width: 100%;
+    }
+
+    .beneficios_centro {
+        position: unset;
+        width: 90%;
+    }
+
+    .beneficios_centrais {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .beneficios_laterais {
+        left: 0;
+        margin-top: 20px;;
+        font-size: 18px;
+    }
+
+    .formulario {
+        width: 100%;
+        padding-top: 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .input_submit {
+        margin-bottom: 5px;
+        background-color: #AAD4D8;
+    }
+
+    .whatsapp_rodape {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    span {
+        display: inline;
+    }
+
+    .ilustracao_detalhes_do_curso{
+        width: 40%;
+    }
+
+    .titulo_do_curso {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .subtitulos {
+        margin-bottom: 0;
+    }
+
+    .modulos {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .titulo_modulo {
+        font-size: 22px
+    }
+
+    .detalhes_modulo {
+        font-size: 18px;
+    }
+
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+
+    .ilustracao_informacoes {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1024px){
+    span {
+        display: inline;
+    }
+    
+    .ilustracao_detalhes_do_curso {
+        width: 45%;
+    }
+
+    .titulo_do_curso {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .elemento_descricao {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .subtitulos {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    .modulos {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .titulo_modulo {
+        font-size: 30px;
+    }
+
+    .detalhes_modulo {
+        font-size: 28px;
+    }
+
+    .titulo_foco_do_curso {
+        font-size: 40px;
+    }
+
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+
+    .beneficios_centro {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .ilustracao_informacoes, .ilustracao_formulario {
+        width: 50%;
+    }
+
+    .lista_informacoes {
+        font-size: 30px;
+    }
+
+    .elemento_descricao_contato {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+}
+
+@media screen and (max-height: 1024px){
+    .titulo_foco_do_curso {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .foco_do_curso_1, .foco_do_curso_2, .foco_do_curso_3 {
+        position: unset;
+        width: 60%;
+        margin: 20px 0 20px 0;
+        padding: 27px 20px 27px 20px;
+    }
+
+    .foco_do_curso {
+        height: 700px;
+    }
+
+    .beneficios_centrais, .beneficios_laterais {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 217px;
+    background-color: #0E0E0E ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.botao_whatsapp_header {
+    margin-right: 124px;
+}
+
+.whatsapp_header {
+    background-color: transparent;
+    border: none;
+}
+
+.whatsapp_header, .whatsapp_rodape:hover {
+    cursor: pointer;
+}
+
+.descricao_do_curso {
+    background-color: #55A9B1;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    height: 490px;
+    border-radius: 0 0 0 124px;
+    padding-top: 86px;
+}
+
+.elementos_descricao_do_curso {
+    background-color: #FFFFFF;
+    border-radius: 0 56px 59px 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px 15px 15px 15px;
+    height: 359px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 45%;
+}
+
+.titulo_do_curso {
+    color: #333333;
+    text-align: center;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 115%;
+}
+
+.elemento_descricao {
+    color: #333333;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 115%;
+    margin-top: 20px;
+}
+
+.ilustracao_detalhes_do_curso {
+    margin: 0 auto;
+}
+
+span {
+    display: block;
+}
+
+.subtitulos {
+    color: #333333;
+    text-align: center;
+    margin: 65px 62px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+}
+
+.modulos li {
+    padding-top: 45px;
+    padding: 45px 15px 45px 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.modulos ul {
+    width: 100%;
+}
+
+.titulo_modulo {
+    background-color: #55A9B1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.enfase_modulo {
+    font-weight: bold;
+}
+
+.detalhes_modulo {
+    background-color: rgba(85, 169, 177, 0.5);
+    margin-bottom: 10px;
+}
+
+.espaco_detalhes {
+    margin-left: 30px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foco_do_curso, .informacoes_curso {
+    height: 650px;
+    background-color: #55A9B1;
+    border-radius: 0 0 0 124px;
+    margin-top: 62px;
+    padding-top: 62px;
+}
+
+.titulo_foco_do_curso {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 65px 62px;
+}
+
+.foco_do_curso_1,  .foco_do_curso_2, .foco_do_curso_3 {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 15%;
+    margin: 0 25px 0 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.detalhe_do_foco {
+    display: flex;
+    justify-content: center;
+}
+
+.foco_do_curso_1 {
+    padding: 27px 25px 27px 25px;
+    position: absolute;
+    right: 58%;
+}
+
+.foco_do_curso_2 {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding: 27px 25px 27px 25px;
+    position: absolute;
+    top: 251%;
+}
+
+.foco_do_curso_3 {
+    padding: 27px 25px 5px 25px;
+    position: absolute;
+    left: 58%;
+}
+
+.detalhes_beneficios {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beneficios_centro {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.beneficios_centrais {
+    background-color: #AAD4D8;
+    margin: 10px 0 10px 0;
+    padding: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.beneficios_laterais {
+    background-color: #AAD4D8;
+    text-align: center;
+    margin: 0 auto; 
+    position: relative;
+    left: 10%;
+    width: 85%;
+    padding: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.informacoes_curso {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ilustracao_beneficios {
+    display: flex;
+    justify-content: center;
+}
+
+.lista_informacoes {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.informacoes {
+    background-color: #AAD4D8;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    margin: 10px 0 10px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitulo_contato {
+    color: #333333;
+    text-align: center;
+    margin: 65px 0 12px 0;
+    font-size: 48px;
+    font-weight: 400;
+}
+.elemento_descricao_contato {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 64px 0;
+    font-weight: 400;
+    color: #333333;
+}
+
+.descricao_formulario {
+    margin: 0 auto;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    justify-content: left;
+    background-color: #AAD4D8;
+    width: 50%;
+    padding: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    display: flex;
+    margin: 0 auto; 
+    flex-flow: column;
+}
+
+fieldset {
+    width: 100%;
+    border: none;
+}
+
+.input_padrao {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+}
+
+.checkbox_padrao {
+    margin: 40px 0 65px 0;
+    font-size: 20px; 
+    color: #333333;
+}
+
+.input_submit {
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 50%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.alinhamento_contato {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #0E0E0E;
+    padding: 80px;
+    color: #FFFFFF;
+}
+
+.logotipo_rodape {
+    margin: 0 auto;
+}
+
+.elementos_rodape {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.elemento_1_rodape {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.elemento_2_rodape {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+}
+
+.whatsapp_rodape {
+    margin: 0 auto;
+    border: none;
+    background-color: #199744;
+    width: 25%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
